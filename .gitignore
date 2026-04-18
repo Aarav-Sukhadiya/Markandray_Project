@@ -1,5 +1,32 @@
+# Local-only files (kept out of the repo on purpose)
 /.claude
 /EndTerm_Project_guidelines (1).md
 /details.txt
 /instructions.md
 /otherdata.txt
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies & build output
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
